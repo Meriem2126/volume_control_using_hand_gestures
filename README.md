@@ -64,18 +64,12 @@ Install the required dependencies:
 pip install opencv-python mediapipe==0.10.21 pyautogui
 ```
 
-Or, if a `requirements.txt` file is included:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## 🚀 How to Run
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY_NAME.git
+git clone [https://github.com/Meriem2126/volume_control_using_hand_gestures.git]
 ```
 
 Navigate to the project:
@@ -183,51 +177,3 @@ This project demonstrates several important computer vision concepts:
 - Human-computer interaction
 - Automation with Python
 
-## ⚠️ Current Limitations
-
-The current implementation is a simple demonstration and has some limitations:
-
-- The volume changes repeatedly while a gesture is maintained.
-- There is no smooth volume scaling.
-- The distance threshold is fixed.
-- Lighting conditions can affect hand detection.
-- The system is primarily designed for one hand.
-- `PyAutoGUI` sends volume keyboard commands rather than directly setting the exact system volume.
-
-## 🚀 Future Improvements
-
-Possible improvements include:
-
-- 🎚️ Map finger distance directly to **0–100% volume**
-- 📈 Add smooth volume transitions
-- ⏱️ Add a delay/debounce mechanism to prevent repeated commands
-- ✋ Support multiple hand gestures
-- 👌 Add mute/unmute gestures
-- 📊 Display the current volume level on screen
-- 🔊 Use `PyCaw` for precise Windows volume control
-- 🖐️ Add gesture recognition for play/pause and next/previous track
-- 🎨 Improve the graphical interface
-
-## 🎯 Learning Objectives
-
-This project was created to explore how **computer vision and hand tracking can be combined with system automation** to create intuitive, touch-free interfaces.
-
-It provides a foundation for more advanced gesture-controlled applications such as:
-
-- Media controllers
-- Presentation controllers
-- Smart home interfaces
-- Touchless computer interaction
-- Accessibility tools
-- Gesture-controlled applications
-
-## 👩‍💻 Author
-
-**Meriem Regoui**
-
-Data Science & Artificial Intelligence  
-École Nationale Polytechnique, Algeria
-
-## 📄 License
-
-This project is intended for educational and experimental purposes.
